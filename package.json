@@ -1,5 +1,5 @@
 {
-  "name": "erotica-web",
+  "name": "erotichistory-web",
   "version": "1.0.0",
   "description": "Sitio web de lectura erótica con HTML y Node.js",
   "main": "server/server.js",
