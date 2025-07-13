@@ -1,4 +1,3 @@
-/* Fondo oscuro y texto claro */
 body {
   background-color: #1c1c1c;
   color: #f2f2f2;
@@ -11,22 +10,19 @@ body {
   min-height: 100vh;
 }
 
-/* Título principal */
 h1 {
   color: #d12d6f;
-  font-size: 2.75rem; /* 10% más grande */
+  font-size: 2.75rem;
   margin: 40px 0 10px;
   text-align: center;
 }
 
-/* Subtítulos */
 h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
   text-align: center;
 }
 
-/* Contenedor principal de cada sección */
 .historia {
   width: 90%;
   max-width: 800px;
@@ -35,10 +31,11 @@ h2 {
   margin-bottom: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
-  text-align: center;
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 1.15rem;
 }
 
-/* Lista de enlaces a historias como tarjetas */
 ul {
   list-style: none;
   padding: 0;
@@ -64,7 +61,6 @@ li:hover {
   transform: translateY(-5px);
 }
 
-/* Enlaces dentro de las tarjetas */
 li a {
   color: #f2f2f2;
   text-decoration: none;
@@ -75,8 +71,6 @@ li a {
 li a:hover {
   color: #d12d6f;
 }
-
-/* Pie de página */
 
 footer {
   text-align: center;
@@ -113,4 +107,3 @@ footer a:hover {
     transform: translateY(0);
   }
 }
-
