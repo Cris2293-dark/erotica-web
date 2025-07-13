@@ -1,20 +1,86 @@
-.menu {
+/* Fondo oscuro y texto claro */
+body {
+  background-color: #1c1c1c;
+  color: #f2f2f2;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  max-width: 600px;
-  margin: 40px auto;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.menu a {
-  text-decoration: none;
-  color: #ff4e88;
+/* Título principal */
+h1 {
+  color: #d12d6f;
+  font-size: 2.75rem; /* 10% más grande */
+  margin: 40px 0 10px;
+  text-align: center;
+}
+
+/* Subtítulos */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Contenedor principal de cada sección */
+.historia {
+  width: 90%;
+  max-width: 800px;
   background-color: #2c2c2c;
-  padding: 15px;
-  border-radius: 8px;
-  transition: background 0.3s;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+  text-align: center;
 }
 
-.menu a:hover {
-  background-color: #3c3c3c;
+/* Lista de enlaces a historias como tarjetas */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+li {
+  background-color: #292929;
+  border: 1px solid #3a3a3a;
+  border-radius: 12px;
+  padding: 20px;
+  width: 260px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #3a3a3a;
+  transform: translateY(-5px);
+}
+
+/* Enlaces dentro de las tarjetas */
+li a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #d12d6f;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 30px;
+  color: #777;
+  font-size: 0.9rem;
 }
