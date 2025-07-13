@@ -1,27 +1,20 @@
-body {
-  background-color: #1c1c1c;
-  color: #f2f2f2;
-  font-family: 'Georgia', serif;
-  padding: 20px;
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+  margin: 40px auto;
 }
 
-h1 {
-  color: #d12d6f;
-  text-align: center;
-}
-
-.historia {
-  margin: 30px auto;
-  max-width: 700px;
-  font-size: 1.2rem;
-  line-height: 1.6;
+.menu a {
+  text-decoration: none;
+  color: #ff4e88;
   background-color: #2c2c2c;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  transition: background 0.3s;
 }
 
-footer {
-  text-align: center;
-  margin-top: 50px;
-  color: #777;
+.menu a:hover {
+  background-color: #3c3c3c;
 }
