@@ -77,10 +77,26 @@ li a:hover {
 }
 
 /* Pie de página */
+
 footer {
   text-align: center;
-  margin-top: auto;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #444;
   color: #777;
   font-size: 0.9rem;
+}
+
+footer a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+  color: #d12d6f;
+  transform: translateY(-2px);
 }
