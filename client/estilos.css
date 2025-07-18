@@ -82,3 +82,19 @@ footer {
   font-size: 0.9rem;
   color: #aaa;
 }
+
+.siguiente-capitulo {
+  display: inline-block;
+  margin-top: 1em;
+  background-color: #d12d6f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.siguiente-capitulo:hover {
+  background-color: #a91d56;
+}
+
