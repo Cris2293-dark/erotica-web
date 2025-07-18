@@ -3,11 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Capítulo 3: Silencio entre las sombras</title>
-  <link rel="stylesheet" href="estilos.css" />
-  <!-- Google AdSense -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=pub-4094985916057754"
-          crossorigin="anonymous"></script>
+  <title>Capítulo 3 – Nombre de la historia</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #f8f8f8;
+      font-family: 'Georgia', serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2em;
+      line-height: 1.8;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d12d6f;
+    }
+
+    .siguiente-capitulo {
+      display: inline-block;
+      background-color: #d12d6f;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .siguiente-capitulo:hover {
+      background-color: #a91d56;
+    }
+
+    footer {
+      margin-top: 3em;
+      text-align: center;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+
+    a {
+      color: #d12d6f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Capítulo 3</h1>
 </head>
 <body>
   <main class="historia">
@@ -68,12 +114,14 @@
   </main>
 
 <footer>
- <div style="text-align: center; margin: 2em 0;">
-  <a href="index.html">← Volver al inicio</a><br /> 
-  <a href="historia2.html" class="siguiente-capitulo" style="margin-right: 2em;">← Capítulo anterior</a>
-  <a href="historia4.html" class="siguiente-capitulo">→ Siguiente capítulo</a>
-</div>
-  © 2025 erotichistory-web
-</footer>
+<div style="text-align: center; margin: 2em 0;">
+    <a href="historia2.html" class="siguiente-capitulo" style="margin-right: 2em;">← Capítulo anterior</a>
+    <a href="historia4.html" class="siguiente-capitulo">→ Siguiente capítulo</a>
+  </div>
+
+  <footer>
+    <a href="index.html">← Volver al inicio</a><br />
+    © 2025 erotichistory-web
+  </footer>
 </body>
 </html>
